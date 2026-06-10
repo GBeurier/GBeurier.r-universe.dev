@@ -1,0 +1,12 @@
+[
+  {
+    "package": "n4m",
+    "url": "https://github.com/GBeurier/nirs4all-methods",
+    "subdir": "bindings/r/n4m"
+  },
+  {
+    "package": "pls4all",
+    "url": "https://github.com/GBeurier/nirs4all-methods",
+    "subdir": "bindings/r/pls4all"
+  }
+]
