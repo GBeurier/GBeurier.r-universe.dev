@@ -8,5 +8,15 @@
     "package": "pls4all",
     "url": "https://github.com/GBeurier/nirs4all-methods",
     "subdir": "bindings/r/pls4all"
+  },
+  {
+    "package": "nirs4allformats",
+    "url": "https://github.com/GBeurier/nirs4all-formats",
+    "subdir": "bindings/r/nirs4allformats"
+  },
+  {
+    "package": "nirs4allio",
+    "url": "https://github.com/GBeurier/nirs4all-io",
+    "subdir": "bindings/r"
   }
 ]
