@@ -23,5 +23,20 @@
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
     "subdir": "bindings/r"
+  },
+  {
+    "package": "dagmldata",
+    "url": "https://github.com/GBeurier/dag-ml-data",
+    "subdir": "crates/dag-ml-data-r"
+  },
+  {
+    "package": "nirs4alldatasets",
+    "url": "https://github.com/GBeurier/nirs4all-datasets",
+    "subdir": "bindings/r/nirs4alldatasets"
+  },
+  {
+    "package": "nirs4all",
+    "url": "https://github.com/GBeurier/nirs4all-lite",
+    "subdir": "bindings/r"
   }
 ]
