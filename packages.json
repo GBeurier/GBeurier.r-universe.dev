@@ -38,6 +38,7 @@
   {
     "package": "nirs4all",
     "url": "https://github.com/GBeurier/nirs4all-core",
+    "branch": "main",
     "subdir": "bindings/r"
   }
 ]
