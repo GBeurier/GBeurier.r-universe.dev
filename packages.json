@@ -28,7 +28,7 @@
   {
     "package": "nirs4alldatasets",
     "url": "https://github.com/GBeurier/nirs4all-datasets",
-    "branch": "*release",
+    "branch": "v0.3.7",
     "subdir": "bindings/r/nirs4alldatasets"
   },
   {
