@@ -11,7 +11,6 @@
 | **n4m** | Portable PLS / NIRS engine (full surface) over the libn4m C ABI |
 | **pls4all** | Slim PLS-only subset |
 | **nirs4allformats** | Rust-backed spectroscopy file readers for R |
-| **nirs4allformats.lite** | Lean no-Parquet `nirs4allformats` build variant |
 | **nirs4allio** | Dataset assembly bridge for nirs4all formats and datasets |
 | **dagmldata** | R surface for DAG-ML typed data contracts |
 | **nirs4alldatasets** | Curated NIRS reference dataset catalog |
