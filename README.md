@@ -15,13 +15,14 @@
 | **dagml** | R binding for the DAG-ML execution contracts |
 | **dagmldata** | R surface for DAG-ML typed data contracts |
 | **nirs4alldatasets** | Curated NIRS reference dataset catalog |
-| **nirs4all** | End-user R pipeline package from `nirs4all-r` (development branch) |
+| **nirs4all** | End-user R pipeline package from `nirs4all-r` `main` |
 
 Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
-The `n4m` and `nirs4all` entries currently track compatible development
-branches; published binaries can lag the configuration while R-universe rebuilds.
+The `n4m` and `nirs4all` entries track the default branches of their source
+repositories. Published binaries can lag those branches while R-universe
+rebuilds; check the package page or API for the actual version and source SHA.
 
 ## Install
 
