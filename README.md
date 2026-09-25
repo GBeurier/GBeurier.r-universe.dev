@@ -12,13 +12,16 @@
 | **pls4all** | Slim PLS-only subset |
 | **nirs4allformats** | Rust-backed spectroscopy file readers for R |
 | **nirs4allio** | Dataset assembly bridge for nirs4all formats and datasets |
+| **dagml** | R binding for the DAG-ML execution contracts |
 | **dagmldata** | R surface for DAG-ML typed data contracts |
 | **nirs4alldatasets** | Curated NIRS reference dataset catalog |
-| **nirs4all** | V1 RC portable aggregate from `nirs4all-core` |
+| **nirs4all** | End-user R pipeline package from `nirs4all-r` (development branch) |
 
 Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
+The `n4m` and `nirs4all` entries currently track compatible development
+branches; published binaries can lag the configuration while R-universe rebuilds.
 
 ## Install
 
