@@ -39,7 +39,6 @@
   },
   {
     "package": "nirs4all",
-    "url": "https://github.com/GBeurier/nirs4all-r",
-    "branch": "main"
+    "url": "https://github.com/GBeurier/nirs4all-r"
   }
 ]
