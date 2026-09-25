@@ -2,7 +2,7 @@
   {
     "package": "n4m",
     "url": "https://github.com/GBeurier/nirs4all-methods",
-    "branch": "feat/r-preprocessing-parity",
+    "branch": "main",
     "subdir": "bindings/r/n4m"
   },
   {
@@ -40,6 +40,6 @@
   {
     "package": "nirs4all",
     "url": "https://github.com/GBeurier/nirs4all-r",
-    "branch": "feat/r-preprocessing-parity"
+    "branch": "main"
   }
 ]
