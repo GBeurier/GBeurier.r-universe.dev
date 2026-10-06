@@ -19,13 +19,13 @@
   {
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
-    "branch": "v0.2.5",
+    "branch": "v0.2.6",
     "subdir": "bindings/r"
   },
   {
     "package": "dagml",
     "url": "https://github.com/GBeurier/dag-ml",
-    "branch": "v0.3.37",
+    "branch": "v0.3.38",
     "subdir": "bindings/r"
   },
   {
