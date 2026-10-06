@@ -20,6 +20,8 @@
 Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
+The qualified native dependency cohort is pinned to Formats 0.2.11, IO 0.2.5,
+DAG-ML 0.3.37 and DAG-ML-Data 0.2.13 release tags.
 The `n4m` and `nirs4all` entries track the default branches of their source
 repositories. Published binaries can lag those branches while R-universe
 rebuilds; check the package page or API for the actual version and source SHA.
