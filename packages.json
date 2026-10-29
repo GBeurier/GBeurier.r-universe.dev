@@ -13,31 +13,31 @@
   {
     "package": "nirs4allformats",
     "url": "https://github.com/GBeurier/nirs4all-formats",
-    "branch": "v0.2.11",
+    "branch": "v0.2.13",
     "subdir": "bindings/r/nirs4allformats"
   },
   {
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
-    "branch": "v0.2.6",
+    "branch": "v0.2.11",
     "subdir": "bindings/r"
   },
   {
     "package": "dagml",
     "url": "https://github.com/GBeurier/dag-ml",
-    "branch": "v0.3.41",
+    "branch": "v0.3.43",
     "subdir": "bindings/r"
   },
   {
     "package": "dagmldata",
     "url": "https://github.com/GBeurier/dag-ml-data",
-    "branch": "v0.2.13",
+    "branch": "v0.2.14",
     "subdir": "crates/dag-ml-data-r"
   },
   {
     "package": "nirs4alldatasets",
     "url": "https://github.com/GBeurier/nirs4all-datasets",
-    "branch": "v0.3.13",
+    "branch": "v0.3.15",
     "subdir": "bindings/r/nirs4alldatasets"
   },
   {
