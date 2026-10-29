@@ -20,11 +20,30 @@
 Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
-The qualified native dependency cohort is pinned to Formats 0.2.11, IO 0.2.6,
-DAG-ML 0.3.40 and DAG-ML-Data 0.2.13 release tags.
-The `n4m` and `nirs4all` entries track the default branches of their source
+The current release cohort is Formats 0.2.13, IO 0.2.11, DAG-ML 0.3.43,
+DAG-ML-Data 0.2.14 and Datasets 0.3.15. DAG-ML tracks its immutable release
+tag. Four R packaging revisions are pinned by full commit to include the
+29 October 2026 platform/documentation corrections without replacing existing
+release tags or native registry artifacts:
+
+| R package | Revision | Correction |
+|---|---|---|
+| nirs4allformats | `46eb653c6463c3515b26ee6691579e27a2301b63` | Honor the declared Windows ARM64 target and native Cargo build directory |
+| nirs4allio | `1554a4f9a2b26705ad4787a59eb6bf1117ed8e6a` | Honor the declared Windows ARM64 target and native Cargo build directory |
+| dagmldata | `03199ecb7dd27f275edbdbddb13bff3bc5ec6fe9` | Include documentation for the exported in-memory provider |
+| nirs4alldatasets | `42b166acbf76b06b9f28ec20d35c004306a426d0` | Preserve ARM64 import libraries and WebR offline acquisition; reject unavailable blocking HTTP explicitly |
+
+These references describe the R source packages, not replacement PyPI, npm or
+crates.io releases. Native HTTPS certificate checks remain enabled. WebR retains
+local cache verification/preparation; host transport is required to stage new
+network resources.
+
+The `n4m`, `pls4all` and `nirs4all` entries track the default branches of their source
 repositories. Published binaries can lag those branches while R-universe
 rebuilds; check the package page or API for the actual version and source SHA.
+Source availability also does not imply every binary platform succeeded. For
+example, a macOS builder preparation failure before source checkout must be
+distinguished from a package compilation/check failure.
 
 ## Install
 
