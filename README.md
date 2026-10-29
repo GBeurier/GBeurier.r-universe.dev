@@ -21,17 +21,17 @@ Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
 The current release cohort is Formats 0.2.13, IO 0.2.11, DAG-ML 0.3.43,
-DAG-ML-Data 0.2.14 and Datasets 0.3.15. DAG-ML tracks its immutable release
-tag. Four R packaging revisions are pinned by full commit to include the
-29 October 2026 platform/documentation corrections without replacing existing
-release tags or native registry artifacts:
+DAG-ML-Data 0.2.14 and Datasets 0.3.16. DAG-ML and Datasets track immutable release
+tags. Formats, IO and DAG-ML-Data are pinned by full commit for their R packaging
+revisions. These references include the 29 October 2026 platform/documentation
+corrections without replacing existing release tags or native registry artifacts:
 
 | R package | Revision | Correction |
 |---|---|---|
 | nirs4allformats | `46eb653c6463c3515b26ee6691579e27a2301b63` | Honor the declared Windows ARM64 target and native Cargo build directory |
 | nirs4allio | `cbd467f4f7fd59d5a1ce0909a33fb9394b8bedb8` | Use the declared ARM64 target, private Cargo paths and LLVM unwind runtime |
 | dagmldata | `03199ecb7dd27f275edbdbddb13bff3bc5ec6fe9` | Include documentation for the exported in-memory provider |
-| nirs4alldatasets | `cb6b373218977c8e100a49f722e99d5b9052d125` | Use ARM64 import/unwind libraries and explicit WebR target paths; retain offline acquisition and reject unavailable blocking HTTP |
+| nirs4alldatasets | `v0.3.16` | Retain the ARM64/WebR packaging corrections; use catalog-declared numeric/categorical types in curated views and invalidate converter caches with the new version |
 
 These references describe the R source packages, not replacement PyPI, npm or
 crates.io releases. Native HTTPS certificate checks remain enabled. WebR retains
