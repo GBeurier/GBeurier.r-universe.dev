@@ -15,14 +15,14 @@
 | **dagml** | R binding for the DAG-ML execution contracts |
 | **dagmldata** | R surface for DAG-ML typed data contracts |
 | **nirs4alldatasets** | Curated NIRS reference dataset catalog |
-| **nirs4all** | End-user R pipeline package from `nirs4all-r` `main` |
+| **nirs4all** | End-user R pipeline package from `nirs4all-r` tag `v0.7.3` |
 
 Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
 The current release cohort is Formats 0.2.13, IO 0.2.11, DAG-ML 0.3.43,
-DAG-ML-Data 0.2.14 and Datasets 0.3.16. DAG-ML and Datasets track immutable release
-tags. Formats, IO and DAG-ML-Data are pinned by full commit for their R packaging
+DAG-ML-Data 0.2.14, Datasets 0.3.16 and the R pipeline 0.7.3. DAG-ML, Datasets and
+the R pipeline track immutable release tags. Formats, IO and DAG-ML-Data are pinned by full commit for their R packaging
 revisions. These references include the 29 October 2026 platform/documentation
 corrections without replacing existing release tags or native registry artifacts:
 
@@ -38,7 +38,7 @@ crates.io releases. Native HTTPS certificate checks remain enabled. WebR retains
 local cache verification/preparation; host transport is required to stage new
 network resources.
 
-The `n4m`, `pls4all` and `nirs4all` entries track the default branches of their source
+The `n4m` and `pls4all` entries track the default branches of their source
 repositories. Published binaries can lag those branches while R-universe
 rebuilds; check the package page or API for the actual version and source SHA.
 Source availability also does not imply every binary platform succeeded. For
