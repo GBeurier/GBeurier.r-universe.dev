@@ -29,7 +29,7 @@ release tags or native registry artifacts:
 | R package | Revision | Correction |
 |---|---|---|
 | nirs4allformats | `46eb653c6463c3515b26ee6691579e27a2301b63` | Honor the declared Windows ARM64 target and native Cargo build directory |
-| nirs4allio | `1554a4f9a2b26705ad4787a59eb6bf1117ed8e6a` | Honor the declared Windows ARM64 target and native Cargo build directory |
+| nirs4allio | `cbd467f4f7fd59d5a1ce0909a33fb9394b8bedb8` | Use the declared ARM64 target, private Cargo paths and LLVM unwind runtime |
 | dagmldata | `03199ecb7dd27f275edbdbddb13bff3bc5ec6fe9` | Include documentation for the exported in-memory provider |
 | nirs4alldatasets | `42b166acbf76b06b9f28ec20d35c004306a426d0` | Preserve ARM64 import libraries and WebR offline acquisition; reject unavailable blocking HTTP explicitly |
 
