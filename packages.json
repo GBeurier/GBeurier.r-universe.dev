@@ -31,7 +31,7 @@
   {
     "package": "dagmldata",
     "url": "https://github.com/GBeurier/dag-ml-data",
-    "branch": "09b9fb2816b38c82e19cf8d51be0750730b192ea",
+    "branch": "948147eda928dee73c594ec94002b45ce29fe5de",
     "subdir": "crates/dag-ml-data-r"
   },
   {
