@@ -21,7 +21,7 @@ Each package is built from the source repository and subdirectory declared in
 `packages.json`. Some packages include repository-specific `.prepare` hooks to
 stage native code or generated binding assets before the R-universe build.
 The current release cohort is Formats 0.2.13, IO 0.2.11, DAG-ML 0.3.43,
-DAG-ML-Data 0.2.14, Datasets 0.3.16 and the R pipeline 0.7.3. DAG-ML, Datasets and
+DAG-ML-Data 0.2.15, Datasets 0.3.16 and the R pipeline 0.7.3. DAG-ML, Datasets and
 the R pipeline track immutable release tags. Formats, IO and DAG-ML-Data are pinned by full commit for their R packaging
 revisions. These references include the 29 October 2026 platform/documentation
 corrections without replacing existing release tags or native registry artifacts:
@@ -30,7 +30,7 @@ corrections without replacing existing release tags or native registry artifacts
 |---|---|---|
 | nirs4allformats | `46eb653c6463c3515b26ee6691579e27a2301b63` | Honor the declared Windows ARM64 target and native Cargo build directory |
 | nirs4allio | `cbd467f4f7fd59d5a1ce0909a33fb9394b8bedb8` | Use the declared ARM64 target, private Cargo paths and LLVM unwind runtime |
-| dagmldata | `03199ecb7dd27f275edbdbddb13bff3bc5ec6fe9` | Include documentation for the exported in-memory provider |
+| dagmldata | `09b9fb2816b38c82e19cf8d51be0750730b192ea` | 0.2.15: refuse missing and malformed single-target values; R lock resolved against the published 0.2.15 crates |
 | nirs4alldatasets | `v0.3.16` | Retain the ARM64/WebR packaging corrections; use catalog-declared numeric/categorical types in curated views and invalidate converter caches with the new version |
 
 These references describe the R source packages, not replacement PyPI, npm or
