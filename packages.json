@@ -8,18 +8,19 @@
   {
     "package": "pls4all",
     "url": "https://github.com/GBeurier/nirs4all-methods",
-    "subdir": "bindings/r/pls4all"
+    "subdir": "bindings/r/pls4all",
+    "branch": "v1.3.14"
   },
   {
     "package": "nirs4allformats",
     "url": "https://github.com/GBeurier/nirs4all-formats",
-    "branch": "46eb653c6463c3515b26ee6691579e27a2301b63",
+    "branch": "98d3daca831b54ba618d93ec50c8183578c4d1fd",
     "subdir": "bindings/r/nirs4allformats"
   },
   {
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
-    "branch": "cbd467f4f7fd59d5a1ce0909a33fb9394b8bedb8",
+    "branch": "e67f0588b054c4d35e786306e139dfc92c9cf74b",
     "subdir": "bindings/r"
   },
   {
@@ -31,18 +32,18 @@
   {
     "package": "dagmldata",
     "url": "https://github.com/GBeurier/dag-ml-data",
-    "branch": "948147eda928dee73c594ec94002b45ce29fe5de",
+    "branch": "bbddf63671a689a2afd51e97cb631b09db96af77",
     "subdir": "crates/dag-ml-data-r"
   },
   {
     "package": "nirs4alldatasets",
     "url": "https://github.com/GBeurier/nirs4all-datasets",
-    "branch": "v0.3.16",
+    "branch": "v0.3.18",
     "subdir": "bindings/r/nirs4alldatasets"
   },
   {
     "package": "nirs4all",
     "url": "https://github.com/GBeurier/nirs4all-r",
-    "branch": "v0.7.3"
+    "branch": "v0.7.4"
   }
 ]
