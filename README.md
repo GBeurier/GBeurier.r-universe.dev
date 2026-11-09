@@ -31,7 +31,7 @@ they do not establish that every binary platform has finished building.
 | dagml | 0.4.0 | `beaba0b62f9a65bca86c2f521fc482bd80092ba3` |
 | dagmldata | 0.2.16 | `bbddf63671a689a2afd51e97cb631b09db96af77` |
 | nirs4alldatasets | 0.3.19 | `57ccd12fddbfb767b3ff5941433af5980f175c96` |
-| nirs4all | 0.7.5 | `5bf7031398054c88ad5e50fead7035bec5536d8f` |
+| nirs4all | 0.7.5 | `6e8412ac4fcd2f353e552da972c54f4ebcf7b6bd` |
 
 Datasets selects the public `v0.3.19` release source. This source selection
 does not assert completion of the hosted R publisher or the R-universe rebuild.
