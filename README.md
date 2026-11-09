@@ -3,47 +3,52 @@
 [R-universe](https://r-universe.dev) registry for public R packages in the
 [nirs4all ecosystem](https://github.com/GBeurier).
 
-`packages.json` lists the R packages built and published at
+`packages.json` selects the source repositories built and published at
 **https://gbeurier.r-universe.dev**:
 
 | Package | Description |
 |---|---|
-| **n4m** | Portable PLS / NIRS engine (full surface) over the libn4m C ABI |
-| **pls4all** | Slim PLS-only subset |
+| **n4m** | Portable Methods engine over the libn4m C ABI |
+| **pls4all** | PLS subset of the same Methods source |
 | **nirs4allformats** | Rust-backed spectroscopy file readers for R |
-| **nirs4allio** | Dataset assembly bridge for nirs4all formats and datasets |
+| **nirs4allio** | Dataset assembly over the IO and Formats owners |
 | **dagml** | R binding for the DAG-ML execution contracts |
 | **dagmldata** | R surface for DAG-ML typed data contracts |
 | **nirs4alldatasets** | Curated NIRS reference dataset catalog |
-| **nirs4all** | End-user R pipeline package from `nirs4all-r` tag `v0.7.3` |
+| **nirs4all** | End-user R pipeline package from `nirs4all-r` |
 
-Each package is built from the source repository and subdirectory declared in
-`packages.json`. Some packages include repository-specific `.prepare` hooks to
-stage native code or generated binding assets before the R-universe build.
-The current release cohort is Formats 0.2.13, IO 0.2.11, DAG-ML 0.3.43,
-DAG-ML-Data 0.2.15, Datasets 0.3.16 and the R pipeline 0.7.3. DAG-ML, Datasets and
-the R pipeline track immutable release tags. Formats, IO and DAG-ML-Data are pinned by full commit for their R packaging
-revisions. These references include the 29 October 2026 platform/documentation
-corrections without replacing existing release tags or native registry artifacts:
+Each package uses the repository and subdirectory declared in `packages.json`.
+Existing `.prepare` hooks stage native sources where the package needs them.
+The versions below are declared by the selected source `DESCRIPTION` files;
+they do not establish that every binary platform has finished building.
 
-| R package | Revision | Correction |
+| R package | Selected source version | Registry reference |
 |---|---|---|
-| nirs4allformats | `46eb653c6463c3515b26ee6691579e27a2301b63` | Honor the declared Windows ARM64 target and native Cargo build directory |
-| nirs4allio | `cbd467f4f7fd59d5a1ce0909a33fb9394b8bedb8` | Use the declared ARM64 target, private Cargo paths and LLVM unwind runtime |
-| dagmldata | `09b9fb2816b38c82e19cf8d51be0750730b192ea` | 0.2.15: refuse missing and malformed single-target values; R lock resolved against the published 0.2.15 crates |
-| nirs4alldatasets | `v0.3.16` | Retain the ARM64/WebR packaging corrections; use catalog-declared numeric/categorical types in curated views and invalidate converter caches with the new version |
+| n4m | 1.3.15 | `81755e6aa484efb02359867b08901f40bd414ff9` |
+| pls4all | 1.3.15 | `81755e6aa484efb02359867b08901f40bd414ff9` |
+| nirs4allformats | 0.2.16 | `819f5764a2138d755155e5018d7bbcb178924861` |
+| nirs4allio | 0.3.1 | `28e47c9d6491b83a31dd36a25f2b0a35eeab9860` |
+| dagml | 0.4.0 | `beaba0b62f9a65bca86c2f521fc482bd80092ba3` |
+| dagmldata | 0.2.16 | `bbddf63671a689a2afd51e97cb631b09db96af77` |
+| nirs4alldatasets | 0.3.19 | `57ccd12fddbfb767b3ff5941433af5980f175c96` |
+| nirs4all | 0.7.5 | `5bf7031398054c88ad5e50fead7035bec5536d8f` |
 
-These references describe the R source packages, not replacement PyPI, npm or
-crates.io releases. Native HTTPS certificate checks remain enabled. WebR retains
-local cache verification/preparation; host transport is required to stage new
-network resources.
+Datasets selects the public `v0.3.19` release source. This source selection
+does not assert completion of the hosted R publisher or the R-universe rebuild.
+The updated cohort still requires distributed build and platform results.
 
-The `n4m` and `pls4all` entries track the default branches of their source
-repositories. Published binaries can lag those branches while R-universe
-rebuilds; check the package page or API for the actual version and source SHA.
-Source availability also does not imply every binary platform succeeded. For
-example, a macOS builder preparation failure before source checkout must be
-distinguished from a package compilation/check failure.
+Both Methods packages use the same explicit commit. The other entries also use
+explicit commits or release tags; none implicitly follows a default branch.
+These references select R source packages and do not replace PyPI, npm or
+crates.io artifacts or move the package repositories' Main branches.
+
+Actual published versions, source commits and platform results are available on
+the [build dashboard](https://gbeurier.r-universe.dev/builds) and each package's
+API, for example [n4m](https://gbeurier.r-universe.dev/api/packages/n4m) and
+[nirs4all](https://gbeurier.r-universe.dev/api/packages/nirs4all). Source
+availability is distinct from successful Linux, macOS and Windows distribution.
+Native HTTPS certificate checks remain enabled. WebR retains local cache
+verification and preparation; host transport stages new network resources.
 
 ## Install
 
