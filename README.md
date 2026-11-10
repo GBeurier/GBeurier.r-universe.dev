@@ -24,8 +24,8 @@ they do not establish that every binary platform has finished building.
 
 | R package | Selected source version | Registry reference |
 |---|---|---|
-| n4m | 1.3.15 | `81755e6aa484efb02359867b08901f40bd414ff9` |
-| pls4all | 1.3.15 | `81755e6aa484efb02359867b08901f40bd414ff9` |
+| n4m | 1.3.16 | `0399906f1d4df256a294d1b4937b4826c828f649` |
+| pls4all | 1.3.16 | `0399906f1d4df256a294d1b4937b4826c828f649` |
 | nirs4allformats | 0.2.16 | `819f5764a2138d755155e5018d7bbcb178924861` |
 | nirs4allio | 0.3.1 | `28e47c9d6491b83a31dd36a25f2b0a35eeab9860` |
 | dagml | 0.4.0 | `beaba0b62f9a65bca86c2f521fc482bd80092ba3` |

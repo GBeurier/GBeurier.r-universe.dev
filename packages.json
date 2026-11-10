@@ -2,14 +2,14 @@
   {
     "package": "n4m",
     "url": "https://github.com/GBeurier/nirs4all-methods",
-    "branch": "81755e6aa484efb02359867b08901f40bd414ff9",
+    "branch": "0399906f1d4df256a294d1b4937b4826c828f649",
     "subdir": "bindings/r/n4m"
   },
   {
     "package": "pls4all",
     "url": "https://github.com/GBeurier/nirs4all-methods",
     "subdir": "bindings/r/pls4all",
-    "branch": "81755e6aa484efb02359867b08901f40bd414ff9"
+    "branch": "0399906f1d4df256a294d1b4937b4826c828f649"
   },
   {
     "package": "nirs4allformats",
