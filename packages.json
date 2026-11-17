@@ -14,13 +14,13 @@
   {
     "package": "nirs4allformats",
     "url": "https://github.com/GBeurier/nirs4all-formats",
-    "branch": "819f5764a2138d755155e5018d7bbcb178924861",
+    "branch": "5499372e0b32a35f6cc5a9aeec657ab2a1a1d1f7",
     "subdir": "bindings/r/nirs4allformats"
   },
   {
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
-    "branch": "28e47c9d6491b83a31dd36a25f2b0a35eeab9860",
+    "branch": "507d70fbab02db195b9dd055f222b1a7ccf67e32",
     "subdir": "bindings/r"
   },
   {
@@ -32,13 +32,13 @@
   {
     "package": "dagmldata",
     "url": "https://github.com/GBeurier/dag-ml-data",
-    "branch": "bbddf63671a689a2afd51e97cb631b09db96af77",
+    "branch": "8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3",
     "subdir": "crates/dag-ml-data-r"
   },
   {
     "package": "nirs4alldatasets",
     "url": "https://github.com/GBeurier/nirs4all-datasets",
-    "branch": "57ccd12fddbfb767b3ff5941433af5980f175c96",
+    "branch": "4fc6c22185719e5c54c26ebdcb8d6af31ccbe65b",
     "subdir": "bindings/r/nirs4alldatasets"
   },
   {
