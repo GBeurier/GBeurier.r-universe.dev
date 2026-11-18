@@ -26,11 +26,11 @@ they do not establish that every binary platform has finished building.
 |---|---|---|
 | n4m | 1.3.18 | `ba8449ce911f078933574cbe209561213f9caf67` |
 | pls4all | 1.3.18 | `ba8449ce911f078933574cbe209561213f9caf67` |
-| nirs4allformats | 0.2.16 | `819f5764a2138d755155e5018d7bbcb178924861` |
-| nirs4allio | 0.3.1 | `28e47c9d6491b83a31dd36a25f2b0a35eeab9860` |
-| dagml | 0.4.0 | `beaba0b62f9a65bca86c2f521fc482bd80092ba3` |
-| dagmldata | 0.2.16 | `bbddf63671a689a2afd51e97cb631b09db96af77` |
-| nirs4alldatasets | 0.3.19 | `57ccd12fddbfb767b3ff5941433af5980f175c96` |
+| nirs4allformats | 0.2.19 | `5499372e0b32a35f6cc5a9aeec657ab2a1a1d1f7` |
+| nirs4allio | 0.3.6 | `284f50609212456e3275567f25dc0234e58333f6` |
+| dagml | 0.4.3 | `d796152c148db3bb3f4398f818e1083f5e3aa816` |
+| dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
+| nirs4alldatasets | 0.3.19 | `4fc6c22185719e5c54c26ebdcb8d6af31ccbe65b` |
 | nirs4all | 0.7.5 | `2c10ffac3ac975730c4736b5afb8b77294bd30db` |
 
 Datasets selects the public `v0.3.19` release source. This source selection
