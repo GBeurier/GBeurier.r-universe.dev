@@ -30,10 +30,10 @@ they do not establish that every binary platform has finished building.
 | nirs4allio | 0.3.6 | `284f50609212456e3275567f25dc0234e58333f6` |
 | dagml | 0.4.3 | `d796152c148db3bb3f4398f818e1083f5e3aa816` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
-| nirs4alldatasets | 0.3.20 | `de7522a2bc60c72a670a2895084edbe9384fe9f6` |
+| nirs4alldatasets | 0.3.21 | `f92dc84a1865c3a00c8944c345b38732a96f8572` |
 | nirs4all | 0.7.5 | `2c10ffac3ac975730c4736b5afb8b77294bd30db` |
 
-Datasets selects the public `v0.3.20` release source. This source selection
+Datasets selects the public `v0.3.21` release source. This source selection
 does not assert completion of the hosted R publisher or the R-universe rebuild.
 The updated cohort still requires distributed build and platform results.
 
