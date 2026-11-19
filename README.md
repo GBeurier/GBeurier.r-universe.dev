@@ -24,16 +24,16 @@ they do not establish that every binary platform has finished building.
 
 | R package | Selected source version | Registry reference |
 |---|---|---|
-| n4m | 1.5.0 | `70b631cc36d0fed830bcacd34dd7bc4291a30dc3` |
-| pls4all | 1.5.0 | `70b631cc36d0fed830bcacd34dd7bc4291a30dc3` |
+| n4m | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
+| pls4all | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
 | nirs4allformats | 0.2.19 | `5499372e0b32a35f6cc5a9aeec657ab2a1a1d1f7` |
 | nirs4allio | 0.3.6 | `284f50609212456e3275567f25dc0234e58333f6` |
 | dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
-| nirs4alldatasets | 0.3.21 | `f92dc84a1865c3a00c8944c345b38732a96f8572` |
-| nirs4all | 0.7.5 | `2c10ffac3ac975730c4736b5afb8b77294bd30db` |
+| nirs4alldatasets | 0.3.22 | `6011ab023a3975e69b78b4f2e453f314cec1d974` |
+| nirs4all | 0.8.0 | `d1d7517cb45813722e9c9d74b1a2181bc8f000a8` |
 
-Datasets selects the public `v0.3.21` release source. This source selection
+Datasets selects the reviewed `0.3.22` source. This source selection
 does not assert completion of the hosted R publisher or the R-universe rebuild.
 The updated cohort still requires distributed build and platform results.
 
