@@ -28,7 +28,7 @@ they do not establish that every binary platform has finished building.
 | pls4all | 1.5.0 | `70b631cc36d0fed830bcacd34dd7bc4291a30dc3` |
 | nirs4allformats | 0.2.19 | `5499372e0b32a35f6cc5a9aeec657ab2a1a1d1f7` |
 | nirs4allio | 0.3.6 | `284f50609212456e3275567f25dc0234e58333f6` |
-| dagml | 0.4.3 | `d796152c148db3bb3f4398f818e1083f5e3aa816` |
+| dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
 | nirs4alldatasets | 0.3.21 | `f92dc84a1865c3a00c8944c345b38732a96f8572` |
 | nirs4all | 0.7.5 | `2c10ffac3ac975730c4736b5afb8b77294bd30db` |
