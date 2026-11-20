@@ -30,7 +30,7 @@ they do not establish that every binary platform has finished building.
 | nirs4allio | 0.3.8 | `ce82e0ac074b322d04a276c57cd9bf2b5f8adc91` |
 | dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
-| nirs4alldatasets | 0.3.22 | `6011ab023a3975e69b78b4f2e453f314cec1d974` |
+| nirs4alldatasets | 0.3.22 | `478ece433476c400cb8652346715f50826d3e36d` |
 | nirs4all | 0.8.0 | `d1d7517cb45813722e9c9d74b1a2181bc8f000a8` |
 
 Datasets selects the reviewed `0.3.22` source. This source selection
