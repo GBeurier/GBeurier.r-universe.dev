@@ -30,12 +30,14 @@ they do not establish that every binary platform has finished building.
 | nirs4allio | 0.3.8 | `ce82e0ac074b322d04a276c57cd9bf2b5f8adc91` |
 | dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
-| nirs4alldatasets | 0.3.22 | `478ece433476c400cb8652346715f50826d3e36d` |
+| nirs4alldatasets | 0.3.23 | `c8aef1ec94ecde6a51abce1c61ee955c3fd0e838` |
 | nirs4all | 0.8.0 | `d1d7517cb45813722e9c9d74b1a2181bc8f000a8` |
 
-Datasets selects the reviewed `0.3.22` source. This source selection
-does not assert completion of the hosted R publisher or the R-universe rebuild.
-The updated cohort still requires distributed build and platform results.
+Datasets selects the reviewed, published `0.3.23` source. Its R API is unchanged;
+the patch adds a browser-owner module and updates the package version. The prior
+0.3.22 source and Linux/macOS ARM/Windows distributions were verified separately.
+This new source selection does not assert that the 0.3.23 R-universe rebuild has
+finished: check the actual package API and platform distributions below.
 
 Both Methods packages use the same explicit commit. The other entries also use
 explicit commits or release tags; none implicitly follows a default branch.
