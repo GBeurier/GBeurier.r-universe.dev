@@ -26,7 +26,7 @@ they do not establish that every binary platform has finished building.
 |---|---|---|
 | n4m | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
 | pls4all | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
-| nirs4allformats | 0.2.19 | `5499372e0b32a35f6cc5a9aeec657ab2a1a1d1f7` |
+| nirs4allformats | 0.2.20 | `6b78862c988254fbe523e914fe921c9db158cacf` |
 | nirs4allio | 0.3.8 | `ce82e0ac074b322d04a276c57cd9bf2b5f8adc91` |
 | dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
