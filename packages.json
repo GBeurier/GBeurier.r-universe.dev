@@ -20,7 +20,7 @@
   {
     "package": "nirs4allio",
     "url": "https://github.com/GBeurier/nirs4all-io",
-    "branch": "ce82e0ac074b322d04a276c57cd9bf2b5f8adc91",
+    "branch": "c1c3cdfa0e394ef696c56ac65bfabdef1b65a468",
     "subdir": "bindings/r"
   },
   {
@@ -38,7 +38,7 @@
   {
     "package": "nirs4alldatasets",
     "url": "https://github.com/GBeurier/nirs4all-datasets",
-    "branch": "c8aef1ec94ecde6a51abce1c61ee955c3fd0e838",
+    "branch": "74bd2c6a21d344771efa0c23695216e667daba6b",
     "subdir": "bindings/r/nirs4alldatasets"
   },
   {
