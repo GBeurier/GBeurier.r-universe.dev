@@ -26,18 +26,16 @@ they do not establish that every binary platform has finished building.
 |---|---|---|
 | n4m | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
 | pls4all | 1.5.1 | `25041f88bebb21a19748799c1681e138a3d55dfb` |
-| nirs4allformats | 0.2.20 | `6b78862c988254fbe523e914fe921c9db158cacf` |
-| nirs4allio | 0.3.8 | `ce82e0ac074b322d04a276c57cd9bf2b5f8adc91` |
+| nirs4allformats | 0.3.1 | `89f191396772c71379e7ad788f29f30472369498` |
+| nirs4allio | 0.4.0 | `c1c3cdfa0e394ef696c56ac65bfabdef1b65a468` |
 | dagml | 0.5.0 | `d3608565a5fe27875d4b64e54035eb8b4c05b204` |
 | dagmldata | 0.2.17 | `8c86f13d3ff1c3fbdba94e18d73d4c2b367320c3` |
-| nirs4alldatasets | 0.3.23 | `c8aef1ec94ecde6a51abce1c61ee955c3fd0e838` |
+| nirs4alldatasets | 0.4.0 | `74bd2c6a21d344771efa0c23695216e667daba6b` |
 | nirs4all | 0.8.0 | `d1d7517cb45813722e9c9d74b1a2181bc8f000a8` |
 
-Datasets selects the reviewed, published `0.3.23` source. Its R API is unchanged;
-the patch adds a browser-owner module and updates the package version. The prior
-0.3.22 source and Linux/macOS ARM/Windows distributions were verified separately.
-This new source selection does not assert that the 0.3.23 R-universe rebuild has
-finished: check the actual package API and platform distributions below.
+The weekday reader cohort selects Formats 0.3.1, IO 0.4.0 and Datasets
+0.4.0. Each source revision matches the owner release tag. The owner R
+workflows and the R-universe platform builds report their own results.
 
 Both Methods packages use the same explicit commit. The other entries also use
 explicit commits or release tags; none implicitly follows a default branch.
